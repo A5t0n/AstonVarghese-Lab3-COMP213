@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" container="IE=edge" />
+    <meta name="viewport" container="width=device-width, initial-scale=1.0" />
+    <title>Lab-3 Assignment Grid</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+
+      .column {
+        flex: 25%;
+        max-width: 25%;
+        padding: 5px;
+      }
+      img {
+        width: 100%;
+        vertical-align: middle;
+        margin-top: 5px;
+      }
+
+      @media screen and (max-device-width: 800px) {
+        .column {
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+
+      @media screen and (max-device-width: 600px) {
+        .column {
+          flex: 100%;
+          max-width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="column">
+        <div>
+          <img src="https://picsum.photos/id/250/4928/3264" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/id/238/2560/1440" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/id/349/3264/2176" />
+        </div>
+      </div>
+
+      <div class="column">
+        <div>
+          <img src="https://picsum.photos/id/250/4928/3264" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/id/238/2560/1440" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/id/349/3264/2176" />
+        </div>
+      </div>
+
+      <div class="column">
+        <div>
+          <img src="https://picsum.photos/id/250/4928/3264" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/id/238/2560/1440" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/id/349/3264/2176" />
+        </div>
+      </div>
+
+      <div class="column">
+        <div>
+          <img src="https://picsum.photos/id/250/4928/3264" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/id/238/2560/1440" />
+        </div>
+        <div>
+          <img src="https://picsum.photos/id/349/3264/2176" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
